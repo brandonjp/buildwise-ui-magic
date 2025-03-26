@@ -1,10 +1,10 @@
 # BuildWise UI Magic
 
-A powerful WordPress plugin that enhances the BuildWise experience with a modern, intuitive user interface.
+A modern React/TypeScript application that enhances the BuildWise experience with a sleek, intuitive user interface.
 
 ## Overview
 
-BuildWise UI Magic transforms the standard BuildWise interface into a sleek, modern dashboard that makes project management and compliance tracking more efficient and user-friendly.
+BuildWise UI Magic is a modern web application built with React and TypeScript that transforms the standard BuildWise interface into a sleek, modern dashboard that makes project management and compliance tracking more efficient and user-friendly.
 
 ## Features
 
@@ -31,18 +31,53 @@ BuildWise UI Magic transforms the standard BuildWise interface into a sleek, mod
 ### Package Compliance Overview
 ![Package Compliance](screenshots/screen_02-draw-package-compliance-overview.jpeg)
 
-## Installation
+## Tech Stack
 
-1. Download the plugin zip file
-2. Go to WordPress admin panel > Plugins > Add New
-3. Click "Upload Plugin" and select the downloaded zip file
-4. Click "Install Now" and then "Activate"
+- React 18 with TypeScript
+- Vite for build tooling
+- Radix UI for accessible components
+- Tailwind CSS for styling
+- Modern development tooling (ESLint, TypeScript)
 
-## Requirements
+## Getting Started
 
-- WordPress 5.0 or higher
-- PHP 7.4 or higher
-- BuildWise plugin (latest version)
+### Prerequisites
+
+- Node.js 18 or higher
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Create a `.env` file based on `.env.example`
+4. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+### Building for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+## Development
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
 
 ## Support
 
@@ -50,7 +85,7 @@ For support, feature requests, or bug reports, please visit our [GitHub Issues](
 
 ## License
 
-This plugin is licensed under the GPL v2 or later.
+This project is licensed under the MIT License.
 
 ## Changelog
 
